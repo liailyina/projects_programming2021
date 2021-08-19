@@ -34,6 +34,21 @@ ellipse(screen, BLACK, (320, 310, 30, 67), 1)
 ellipse(screen, ORANGE, (52, 240, 42, 67))
 ellipse(screen, BLACK, (52, 240, 42, 67), 1)
 
+circle(screen, ORANGE, (70, 240), 50)                  # HEAD
+circle(screen, BLACK, (70, 240), 50, 1)
+
+polygon(screen, ORANGE, ((30, 180),(60, 190), (25, 215)))
+polygon(screen, BLACK, ((30, 180),(60, 190), (25, 215)), 1)
+polygon(screen, ORANGE, ((80, 190), (110, 180), (112, 218)))
+polygon(screen, BLACK, ((80, 190), (110, 180), (112, 218)), 1)       # EARS
+polygon(screen, LIGHT_PINK, ((32, 182), (52, 190), (28, 207)))
+polygon(screen, BLACK, ((32, 182), (52, 190), (28, 207)), 1)
+polygon(screen, LIGHT_PINK, ((84, 190), (106, 183), (108, 210)))
+polygon(screen, BLACK, ((84, 190), (106, 183), (108, 210)), 1)
+
+
+
+pygame.display.update()
 
 
 while True:
