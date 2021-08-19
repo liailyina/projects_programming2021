@@ -21,6 +21,21 @@ rect(screen, VERY_LIGHT_BLUE, (295, 10, 15, 165))
 rect(screen, VERY_LIGHT_BLUE, (220, 50,160, 15))
 
 
+# Cat
+ellipse(screen, ORANGE, (350, 250, 50, 90))
+ellipse(screen, ORANGE, (70, 200, 310, 100))                     # BODY
+ellipse(screen, BLACK, (70, 200, 310, 100), 1)
+ellipse(screen, ORANGE, (90, 275, 70, 50))
+ellipse(screen, BLACK, (90, 275, 70, 50), 1)
+circle(screen, ORANGE, (300, 290), 50)
+circle(screen, BLACK, (300, 290), 50, 1)
+ellipse(screen, ORANGE, (320, 310, 30, 67))
+ellipse(screen, BLACK, (320, 310, 30, 67), 1)
+ellipse(screen, ORANGE, (52, 240, 42, 67))
+ellipse(screen, BLACK, (52, 240, 42, 67), 1)
+
+
+
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
