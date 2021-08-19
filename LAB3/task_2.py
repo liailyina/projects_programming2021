@@ -46,6 +46,32 @@ polygon(screen, BLACK, ((32, 182), (52, 190), (28, 207)), 1)
 polygon(screen, LIGHT_PINK, ((84, 190), (106, 183), (108, 210)))
 polygon(screen, BLACK, ((84, 190), (106, 183), (108, 210)), 1)
 
+ellipse(screen, GREEN, (35, 210, 30, 35))                              #EYES
+ellipse(screen, BLACK, (35, 210, 30, 35), 1)
+ellipse(screen, GREEN, (80, 210, 30, 35))
+ellipse(screen, BLACK, (80, 210, 30, 35), 1)
+ellipse(screen, BLACK, (53, 215, 7, 25))
+ellipse(screen, BLACK, (97, 215, 7, 25))
+line(screen, WHITE, (46, 215), (50, 227), 4)
+line(screen, WHITE, (89, 217), (95, 229), 4)
+
+polygon(screen, LIGHT_PINK, ((70, 260), (66, 254), (74, 254)))        #NOSE
+polygon(screen, BLACK, ((70, 260), (66, 254), (74, 254)), 1)
+line(screen, BLACK, (70, 260), (70, 267))
+
+
+
+
+arc(screen, BLACK, (60, 258, 20, 10), 3.19, 6.28, 1)
+arc(screen, BLACK, (87, 254, 50, 10), 0, 3.20)
+arc(screen, BLACK, (87, 258, 50, 10), 0, 3.20)                         #MOUSTACHE
+arc(screen, BLACK, (87, 262, 50, 10), 0, 3.20)
+arc(screen, BLACK, (5, 262, 50, 10), 0, 3.20)
+arc(screen, BLACK, (5, 258, 50, 10), 0, 3.20)
+arc(screen, BLACK, (5, 254, 50, 10), 0, 3.20)
+
+
+
 
 
 pygame.display.update()
